@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Máquina Expendedora</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <section class="maquinaEntera">
+        <main>
+            <audio id="coinSound" src="./assets/sounds/coin.mp3"></audio>
+            <audio id="productClickSound" src="./assets/sounds/winsound.m4a"></audio>
+            <audio id="buttonClickSound" src="./assets/sounds/sonidoboton.m4a"></audio>
+    
+            <div class="maquina">
+                <section class="maquinaMain">
+                
+                    <img class="main" src="./assets/imgs/MaquinaPrincipal.png" alt="MaquinaExpendedora">
+                    <img class="push" src="./assets/imgs/push.png" alt="">
+                    <div class="productos">
+                        <img id="p01" src="./assets/imgs/botellaAgua.png" alt="">
+                        <img id="p02" src="./assets/imgs/PapasLay.png" alt="">
+                        <img id="p03" src="./assets/imgs/ruffles.png" alt="">
+                        <img id="p04" src="./assets/imgs/cocaCola.png" alt="">
+                        <img id="p05" src="./assets/imgs/salusNaranja.png" alt="">
+                        <img id="p06" src="./assets/imgs/bruschette.png" alt="">
+                    </div>
+                    <div class="pantalla">
+                        <input id="pantalla" type="text" readonly placeholder=" ">
+                        <input id="pantalla2" type="text" readonly placeholder=" ">
+                    </div>
+                    <div class="coin">
+                        <button id="CoinButton">Insert Coin</button>
+                    </div>
+                    <div class="botonDeliver">
+                        <button id="DarItem">Conseguir Producto</button>
+                    </div>
+                    <div class="tableroPad">
+                        <button id="Boton1">1</button>
+                        <button id="Boton2">2</button>
+                        <button id="Boton3">3</button>
+                        <button id="Boton4">4</button>
+                        <button id="Boton5">5</button>
+                        <button id="Boton6">6</button>
+                        <button id="Boton7">7</button>
+                        <button id="Boton8">8</button>
+                        <button id="Boton9">9</button>
+                        <button id="Boton0">0</button>
+                    </div>
+                </section>
+                <div class="vidrio"></div>
+                <div class="productosPush">
+                    <img id="p01p" style="visibility: hidden;" src="./assets/imgs/botellaAgua.png" alt="">
+                    <img id="p02p" style="visibility: hidden;" src="./assets/imgs/PapasLay.png" alt="">
+                    <img id="p04p" style="visibility: hidden;" src="./assets/imgs/cocaCola.png" alt="">
+                    <img id="p03p" style="visibility: hidden;" src="./assets/imgs/ruffles.png" alt="">
+                    <img id="p05p" style="visibility: hidden;" src="./assets/imgs/salusNaranja.png" alt="">
+                    <img id="p06p" style="visibility: hidden;" src="./assets/imgs/bruschette.png" alt="">
+                </div>
+            </div>
+            <div class="ganadores">
+                <img class="productoSacado" style="visibility: hidden;" id="p01c" src="./assets/imgs/ganadorAgua.png" alt="">
+                <img class="productoSacado" style="visibility: hidden;" id="p02c" src="./assets/imgs/ganadorPapas.png" alt="">
+                <img class="productoSacado" style="visibility: hidden;" id="p04c" src="./assets/imgs/cocacolaGanador.png" alt="">
+                <img class="productoSacado" style="visibility: hidden;" id="p03c" src="./assets/imgs/rufflesGanador.png" alt="">
+                <img class="productoSacado" style="visibility: hidden;" id="p05c" src="./assets/imgs/salusGanador.png" alt="">
+                <img class="productoSacado" style="visibility: hidden;" id="p06c" src="./assets/imgs/ganadorBruschette.png" alt="">
+            </div>
+            <button id="resetGanadores">reset</button>
+        </main>
+        <script src="./main.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    </section>
+</body>
+</html>

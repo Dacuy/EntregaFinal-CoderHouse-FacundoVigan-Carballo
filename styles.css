@@ -1,0 +1,203 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.maquinaMain .main{
+    width: 750px;
+    position: absolute;
+    top: -50px;
+    left: 200px;
+}
+.productos #p01{
+    width: 70px;
+    position: absolute;
+    top: 93px;
+    left: 400px;
+}
+.productos #p02{
+    width: 70px;
+    position: absolute;
+    top: 96px;
+    left: 565px;
+}
+.productos #p03{
+    width: 100px;
+    position: absolute;
+    top: 240px;
+    left: 555px;
+}
+.productos #p04{
+    width: 70px;
+    position: absolute;
+    top: 230px;
+    left: 400px;
+}
+.productos #p05{
+    width: 40px;
+    position: absolute;
+    top: 380px;
+    left: 415px;
+}
+.productos #p06{
+    width: 110px;
+    position: absolute;
+    top: 386px;
+    left: 545px;
+}
+.vidrio{
+    width: 335px;
+    height: 520px;
+    background-color: rgba(0, 0, 0, 0.42);
+    position: absolute;
+    top: 92px;
+    left: 354px;
+}
+.push{
+    width: 400px;
+    position: absolute;
+    top: 395px;
+    left: 320px;
+}
+.coin #CoinButton{
+    width: 90px;
+    position: absolute;
+    top: 230px;
+    left: 710px;
+}
+.pantalla #pantalla{
+    width: 90px;
+    position: absolute;
+    top: 200px;
+    left: 709px;
+}
+.pantalla #pantalla2{
+    width: 75px;
+    height: 20PX;
+    position: absolute;
+    top: 465px;
+    left: 715px;
+}
+.tableroPad #Boton1{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 358px;
+    left: 710px;
+}
+.tableroPad #Boton2{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 358px;
+    left: 740px;
+}
+.tableroPad #Boton3{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 358px;
+    left: 770px;
+}
+.tableroPad #Boton4{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 388px;
+    left: 710px;
+}
+.tableroPad #Boton5{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 388px;
+    left: 740px;
+}
+.tableroPad #Boton6{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 388px;
+    left: 770px;
+}
+.tableroPad #Boton7{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 418px;
+    left: 710px;
+}
+.tableroPad #Boton8{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 418px;
+    left: 740px;
+}
+.tableroPad #Boton9{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 418px;
+    left: 770px;
+}
+.tableroPad #Boton0{
+    width: 90px;
+    height: 15px;
+    position: absolute;
+    top: 448px;
+    left: 710px;
+}
+.botonDeliver #DarItem{
+    width: 95px;
+    height: 40px;
+    position: absolute;
+    top: 495px;
+    left: 707px;
+}
+#p01p{
+    width: 65px;
+    position: absolute;
+    top: 660px;
+    rotate: 50deg;
+    left: 480px;
+}
+#p02p{
+    width: 55px;
+    position: absolute;
+    top: 672px;
+    rotate: 50deg;
+    left: 480px;
+}
+#p03p{
+    width: 45px;
+    position: absolute;
+    top: 670px;
+    rotate: 50deg;
+    left: 480px;
+}
+#p04p{
+    width: 65px;
+    position: absolute;
+    top: 670px;
+    rotate: 50deg;
+    left: 480px;
+}
+#p05p{
+    width: 28px;
+    position: absolute;
+    top: 665px;
+    rotate: 70deg;
+    left: 495px;
+}
+#p06p{
+    width: 78px;
+    position: absolute;
+    top: 665px;
+    rotate: 70deg;
+    left: 485px;
+}
+.productoSacado{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}

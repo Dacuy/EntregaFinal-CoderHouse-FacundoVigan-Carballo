@@ -1,0 +1,10 @@
+{
+    "productos": [
+      { "codigo": "01", "nombre": "Botella de Agua", "valor": 10, "imagenId": "p01" },
+      { "codigo": "02", "nombre": "Papas Lay", "valor": 15, "imagenId": "p02" },
+      { "codigo": "03", "nombre": "Coca Cola", "valor": 25, "imagenId": "p04" },
+      { "codigo": "04", "nombre": "Ruffles", "valor": 20, "imagenId": "p03" },
+      { "codigo": "05", "nombre": "Salus Naranja", "valor": 30, "imagenId": "p05" },
+      { "codigo": "06", "nombre": "Bruschette", "valor": 35, "imagenId": "p06" }
+    ]
+}
